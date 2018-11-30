@@ -24,6 +24,21 @@ body{
 
 }
 .margin-top {
-margin-top: 20px;
+margin-top: -8px;
+margin-bottom: 1px;
 
+}
+.margin-gap {
+margin-top: 47px;
+
+}
+
+#logbtn{
+    margin-bottom: 7px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#formbg{
+    background-color: #EFEFEF;
 }
