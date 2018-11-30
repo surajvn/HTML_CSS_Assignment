@@ -18,12 +18,14 @@
  
   <div class="col-sm-3"></div>
   <div class="col-sm-6">
-    <div class="white" style='float:left'>
+    <div class= "flex-container">
+     <div>
      <img src="2018-11-29_Image.jpg">
      <div class="centered">ICTAK</div>
-    </div>
-    <div class="whit" style='flaat:right'>
-     <table width="200" style="margin-left:0%;float:top;">
+     </div>
+     <div>
+    <form>
+     <table  height ="301" class="theme" width="230" style="margin-left:0%;float:top;">
         <tr> 
                 <td>
                     <h3>Login</h3>  
@@ -33,13 +35,13 @@
          <td>Email:</td>
         </tr>
         <tr> 
-         <td><input type ="email" class ="btn-block"/></td>
+         <td><input type ="email" class ="btn-block" required/></td>
         </tr> 
         <tr> 
          <td>Password:</td>
         </tr>
         <tr>
-         <td><input type ="password"class ="btn-block"/></td>
+         <td><input type ="password"class ="btn-block" required/></td>
         </tr>
         <tr>
          <td></td>
@@ -50,7 +52,10 @@
         <tr>
          <td><button type="submit" class="btn btn-warning btn-block">Forgot Password</button></td>
         </tr>        
-      </table>
+       </table>
+      </form>
+       </div>
+      </div>
     </div>
        
   </div>
